@@ -4,10 +4,8 @@
 using namespace std;
 
 Bike::Bike() {
-    // name = new string;
-    // *name = ""; 
-    // code = 0;
-    name = "";
+    name = new string;
+    *name = ""; 
     code = 0;
 };
 
