@@ -6,7 +6,7 @@ using namespace std;
 
 //
 Bike_yard::Bike_yard() {
-    this->capacity = 0;
+    capacity = 0;
     current_stock = 0;
 };
 
@@ -47,10 +47,9 @@ bool Bike_yard::add_stock(Bike b) {
     if (current_stock < capacity) {
         bikes[current_stock] = b;
         current_stock++;
-        asc = true;
-        return asc;
+        return true;
     } else {
-        return asc;
+        return false;
     }
 };
 
