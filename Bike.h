@@ -6,7 +6,7 @@ using namespace std;
 
 class Bike {
     private:
-        string *name;
+        string name;
         int code;
 
     public:

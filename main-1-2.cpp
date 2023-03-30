@@ -41,18 +41,18 @@ int main() {
 
     cout << "The current quantity is: " << bike_yard.get_total_stock_count() << endl;
 
-    cout << "The number of bikes with code 3382 is: " << bike_yard.get_stock_quantity(3382) << endl;
+    int a = 3382;
+    cout << "The number of bikes with code 3382 is: " << bike_yard.get_stock_quantity(a) << endl;
 
-    Bike *b;
-    b = bike_yard.get_current_stock_list();
+    Bike *b = bike_yard.get_current_stock_list();
     
-    // for (int i = 0; i < get_total_stock_count(); i++) {
-    //     b[i] = 
-    //     cout << "Bike" << i << " has branch: " << b[i].get_brand() << ", code: " << b[i].get_code() << endl;
-    // }
+    for (int i = 0; i < bike_yard.get_total_stock_count(); i++) { 
+        cout << "Bike " << i + 1 << " has branch: " 
+                        << b[i].get_brand() << ", code: " 
+                        << b[i].get_code() << endl;
+    }
 
-    // b1.~Bike();
-    // b2.~Bike();
+    // bike_yard.~Bike_yard();
 
     return 0;
 }
