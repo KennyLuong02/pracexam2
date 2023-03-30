@@ -12,7 +12,7 @@ Bike_yard::Bike_yard() {
 
 //
 Bike_yard::Bike_yard(int capacity) {
-    bikes = new Bike(capacity);
+    bikes = new Bike(capacity); //
     this->capacity = capacity;
     current_stock = 0;
 };
