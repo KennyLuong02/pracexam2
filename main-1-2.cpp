@@ -15,25 +15,25 @@ int main() {
     Bike b3("C", 3382);
     Bike b4("C", 3482);
 
-    if (Bike_yard::add_stock(Bike b1)) {
+    if (Bike_yard::add_stock(b1)) {
         cout << "Successfully add bike 1" << endl;
     } else {
         cout << "Unsuccessfully add bike 1" << endl;
     }
 
-    if (Bike_yard::add_stock(Bike b2)) {
+    if (Bike_yard::add_stock(b2)) {
         cout << "Successfully add bike 2" << endl;
     } else {
         cout << "Unsuccessfully add bike 2" << endl;
     }
 
-    if (Bike_yard::add_stock(Bike b3)) {
+    if (Bike_yard::add_stock(Bike.b3)) {
         cout << "Successfully add bike 3" << endl;
     } else {
         cout << "Unsuccessfully add bike 3" << endl;
     }
 
-    if (Bike_yard::add_stock(Bike b4)) {
+    if (Bike_yard::add_stock(Bike.b4)) {
         cout << "Successfully add bike 4" << endl;
     } else {
         cout << "Unsuccessfully add bike 4" << endl;
